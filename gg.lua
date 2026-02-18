@@ -165,7 +165,12 @@ end)
 local MyButton = LeftGroupBox:AddButton({
 	Text = "Button",
 	Func = function()
-		print("You clicked a button!")
+		 local FOV = Drawing.new("Circle");
+ FOV.Color = AimbotSettings.FovColor
+ FOV.Thickness = AimbotSettings.FovThickness
+ FOV.Transparency = AimbotSettings.FovTransparency
+ FOV.Filled = false
+ FOV.Radius = AimbotSettings.FovSize
 	end,
 	DoubleClick = false,
 
