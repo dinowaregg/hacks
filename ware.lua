@@ -8,7 +8,7 @@ if (not game:IsLoaded()) then
   
  
  -- Load the UI library with the purple theme
-local UILibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/AMEBeta/Star/refs/heads/main/starwareui.lua",true))();
+local UILibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/dinowaregg/hacks/refs/heads/main/gg.lua",true))();
   
  
  local PlaceId = game.PlaceId
